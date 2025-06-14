@@ -18,6 +18,12 @@
 - lunaci
 - gradia
 
+# dev 
+- php
+- java
+- nodejs
+- composer
+
 # editeur
 - vscode
 - github desktop
@@ -28,6 +34,9 @@
 - tableplus
 - sqlite
 - docker
+
+# terminal
+- oh my zsh
 
 # réseau social
 - discord
