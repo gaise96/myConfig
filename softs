@@ -36,6 +36,7 @@
 - docker
 
 # terminal
+- zsh
 - oh my zsh
 
 # réseau social
@@ -58,4 +59,4 @@
 - builder
 - decoder
 - generateur de kit webfont
-- 
+- morphore
