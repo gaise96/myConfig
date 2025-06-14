@@ -21,12 +21,11 @@
 # editeur
 - vscode
 
-# db
+# db & container
 - mysql
 - tableplus
 - sqlite
-- 
-
+- docker
 
 # réseau social
 - discord
@@ -39,3 +38,5 @@
 - extension manager
 - Boatswain (optionel par manque d'équipement du stream desk)
 - time switch
+- 
+- 
