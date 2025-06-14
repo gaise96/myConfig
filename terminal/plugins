@@ -4,4 +4,4 @@ git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/
 git clone https://github.com/fdellwing/zsh-bat.git $ZSH_CUSTOM/plugins/zsh-bat
 git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat nvm zsh-nvm)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting you-should-use zsh-bat nvm zsh-nvm vscode laravel)
