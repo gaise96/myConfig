@@ -1,0 +1,7 @@
+# Install PHP - Composer - Laravel installer
+
+## Prendre en compte la dernière version du PHP - Composer - Laravel installer
+ /bin/bash -c "$(curl -fsSL https://php.new/install/linux)"
+
+## Installation avec les versions spécifique
+/bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
