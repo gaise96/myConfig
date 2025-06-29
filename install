@@ -5,3 +5,17 @@
 
 ## Installation avec les versions spécifique
 /bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
+
+
+# Installing MySQL on Fedora
+sudo dnf install mysql-server
+
+## Start MySQL Service and Enable at login
+sudo systemctl start mysqld
+sudo systemctl enable mysqld
+
+## Configuring MySQL before the first use
+sudo mysql_secure_installation
+
+## Using MySQL
+sudo mysql -u root -p
