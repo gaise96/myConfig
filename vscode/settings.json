@@ -2,8 +2,7 @@
     // breadcrumbs
     "breadcrumbs.symbolPath": "off",
     // Editor
-    "editor.fontFamily": "'MonoLisa', 'ZenMonolith', 'Jetbrains Mono', 'Dank Mono', 'Geist Mono', 'Operator Mono', 'monospace'",
-    "editor.fontSize": 13,
+    "editor.fontFamily": "'Geist Mono', 'MonoLisa', 'ZenMonolith', 'Jetbrains Mono', 'Dank Mono', 'Operator Mono', 'monospace'",
     "editor.lineHeight": 4,
     "editor.fontLigatures": true,
     "editor.fontWeight": "500",
@@ -88,9 +87,7 @@
     "workbench.editor.tabSizing": "shrink",
     "workbench.tree.enableStickyScroll": false,
     // "workbench.preferredLightColorTheme": "Atom One Light",
-    "workbench.preferredDarkColorTheme": "Omni",
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "symbols",
+    "workbench.preferredDarkColorTheme": "vscode carbon theme",
     "workbench.editor.pinnedTabSizing": "compact",
     "workbench.editor.highlightModifiedTabs": true,
     // Explorer
@@ -121,7 +118,7 @@
 
     "breadcrumbs.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Alabaster Dark",
     // Emmet Configuration
     "emmet.triggerExpansionOnTab": true,
     "emmet.includeLanguages": {
@@ -197,12 +194,12 @@
     "intelephense.telemetry.enabled": false,
     "diffEditor.hideUnchangedRegions.enabled": true,
     // Terminal
-    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.env.osx": {
         "FIG_NEW_SESSION": "1"
     },
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
     "terminal.integrated.fontWeight": "500",
     "terminal.integrated.lineHeight": 2,
     "terminal.integrated.cursorBlinking": false,
@@ -312,8 +309,13 @@
     "vscode_custom_css.imports": [
         "file:///home/gaise/custom/style.css"
     ],
-    "workbench.activityBar.location": "hidden",
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter"
-    }
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "catppuccin-latte",
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "workbench.activityBar.location": "hidden"
 }
