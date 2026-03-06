@@ -1,0 +1,228 @@
+{
+    // ======================================================
+    // ✍️ ÉDITEUR (CONFORT & PRODUCTIVITÉ)
+    // ======================================================
+    "editor.fontFamily": "'MonoLisa', 'Operator Mono Lig', 'Geist Mono', 'Martian Mono', 'Dank Mono', 'JetBrains Mono', 'ZenMonolith', monospace",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 45,
+    "editor.letterSpacing": 0.4,
+    "editor.cursorStyle": "block",
+    "editor.cursorWidth": 4,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.stickyScroll.enabled": false,
+    "editor.wordWrap": "on",
+    // "editor.wordWrapColumn": 300,
+    "editor.wrappingIndent": "indent",
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.mouseWheelZoom": true,
+    "editor.mouseWheelScrollSensitivity": 1.8,
+    "editor.smoothScrolling": true,
+    "editor.formatOnSave": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.tabCompletion": "on",
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.hover.enabled": "on",
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "always",
+    "editor.selectionHighlight": true,
+    "editor.occurrencesHighlight": "off",
+    "editor.codeLens": false,
+    "editor.glyphMargin": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.snippetSuggestions": "top",
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "editor.guides.indentation": false,
+    "editor.scrollBeyondLastLine": false,
+
+  // ======================================================
+  // 🧭 NAVIGATION
+  // ======================================================
+  "breadcrumbs.enabled": false,
+    // ======================================================
+    // ✨ FICHIERS & SAUVEGARDE
+    // ======================================================
+    "files.autoSave": "onFocusChange",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.defaultLanguage": "markdown",
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/.yarn/**": true,
+        "backend/vendor/**": true
+    },
+    // ======================================================
+    // 💻 TERMINAL
+    // ======================================================
+    "terminal.integrated.fontFamily": "MonoLisa",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontWeight": "400",
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.tabs.enabled": false,
+    // ======================================================
+    // 🐘 PHP / LARAVEL
+    // ======================================================
+    "php.executablePath": ".config/herd-lite/bin/php",
+    "php.suggest.basic": false,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.rules": "@PSR2",
+    "php-cs-fixer.allowRisky": false,
+    "php-cs-fixer.documentFormattingProvider": true,
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "bladeFormatter.format.wrapAttributes": "preserve-aligned",
+    // ======================================================
+    // 🌐 JAVASCRIPT / TYPESCRIPT / REACT / VUE
+    // ======================================================
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    // ======================================================
+    // 🎨 TAILWIND CSS
+    // ======================================================
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.colorDecorators": false,
+    "tailwindCSS.experimental.classRegex": [
+        "[\"'`](.*?)[\"'`]"
+    ],
+    // ======================================================
+    // 🔧 GIT
+    // ======================================================
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.decorations.enabled": true,
+    // ======================================================
+    // 🔒 SÉCURITÉ & MISE À JOUR
+    // ======================================================
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.promptForLocalFileProtocolHandling": false,
+    "update.mode": "manual",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true,
+
+  // ======================================================
+  // 🪟 WINDOW & WORKBENCH
+  // ======================================================
+    "workbench.editor.showTabs": "single",
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.enablePreview": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 15,
+    "workbench.preferredDarkColorTheme": "Dracula Theme",
+    "workbench.preferredLightColorTheme": "Min Light",
+    "workbench.iconTheme": "symbols",
+    "window.newWindowDimensions": "inherit",
+    "window.nativeFullScreen": false,
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+
+    // ======================================================
+    // 🏗️ EMETT & ASSOCIATIONS
+    // ======================================================
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "blade.php": "html",
+        "twig": "html",
+        "javascript": "javascript",
+        "javascriptreact": "javascript"
+    },
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        ".php_cs.dist": "php",
+        ".php_cs": "php",
+        ".pre": "php",
+        "artisan": "php"
+    },
+    // ======================================================
+    // 📂 EXPLORER / NESTING
+    // ======================================================
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "explorer.stickyScroll.enabled": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "composer.json": "composer.lock",
+        "psalm.xml": "psalm-baseline.xml",
+        ".php-cs-fixer.php": ".php-cs-fixer.cache",
+        "phpunit.xml": ".phpunit.result.cache",
+        "*.php": "${basename}Test.php"
+    },
+    // ======================================================
+    // 🔍 SEARCH
+    // ======================================================
+    "search.useIgnoreFiles": false,
+    "search.smartCase": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/vendor/{[^l],?[^ai]}*": true,
+        "**/public/{[^i],?[^n]}*": true,
+        "**/_ide_helper.php": true,
+        "storage": true,
+        "**/vendor": true,
+        "**/dist": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "_ide_helper.php": true,
+        "_ide_helper_models.php": true,
+        ".php_cs.cache": true,
+        ".phpstorm.meta.php": true,
+        ".phpunit.result.cache": true
+    },
+
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "window.menuBarVisibility": "compact",
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.settings.editor": "json",
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.startupEditor": "none",
+}
